@@ -5,7 +5,7 @@ This is the Source Code of Paper: [GPTScore: Evaluate as You Desire](https://arx
 
 ## What is GPTScore?
 
-GPTScore is a novel evaluation framework that utilizes the emergent abilities (e.g., zero-shot instruction) of Generative Pre-Trained models to Score generated texts. 
+GPTScore is a novel evaluation framework that utilizes the emergent abilities (e.g., zero-shot instruction) of **G**enerative **P**re-**T**rained models to **Score** generated texts. 
 
 <img src="./fig/framework.gif" width="800" class="center">
 
