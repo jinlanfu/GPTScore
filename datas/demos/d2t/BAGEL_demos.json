@@ -1,0 +1,159 @@
+{
+    "demo": {
+        "informativeness": [
+            {
+                "src": "X",
+                "ref_summ": "A la turca restaurant is in the cheap price range . ",
+                "sys_summ": "A la turca restaurant , is cheap .",
+                "sys_name": "BAGEL",
+                "aspect": "informativeness",
+                "polarity": "positive"
+            },
+            {
+                "src": "X",
+                "ref_summ": "The price of alborz persian cuisine is between 9 and 13 dollar . ",
+                "sys_summ": "the price is between 9 and 13 dollar at alborz persian cuisine .",
+                "sys_name": "BAGEL",
+                "aspect": "informativeness",
+                "polarity": "positive"
+            },
+            {
+                "src": "X",
+                "ref_summ": "The inn at the presidio in presidio area allows dogs and has internet service . ",
+                "sys_summ": "inn at the presidio in the presidio area does have internet and allows dogs .",
+                "sys_name": "BAGEL",
+                "aspect": "informativeness",
+                "polarity": "positive"
+            },
+            {
+                "src": "X",
+                "ref_summ": "What area would you like a hotel in ? ",
+                "sys_summ": "can I confirm what area you are looking for a hotel near ?",
+                "sys_name": "BAGEL",
+                "aspect": "informativeness",
+                "polarity": "positive"
+            },
+            {
+                "src": "X",
+                "ref_summ": "X restaurant is near X on the riverside .",
+                "sys_summ": "X is a restaurant in the riverside area near X .",
+                "sys_name": "BAGEL",
+                "aspect": "informativeness",
+                "polarity": "positive"
+            },
+            {
+                "src": "X",
+                "ref_summ": "X is a cheap fastfood restaurant located near the riverside .",
+                "sys_summ": "X is a reasonably priced fast food restaurant down by river cheap .",
+                "sys_name": "BAGEL",
+                "aspect": "informativeness",
+                "polarity": "positive"
+            }
+        ],
+        "naturalness": [
+            {
+                "src": "X",
+                "ref_summ": "Is there a certain price range you were looking for ? ",
+                "sys_summ": "what price range are you looking for ?",
+                "sys_name": "BAGEL",
+                "aspect": "naturalness",
+                "polarity": "positive"
+            },
+            {
+                "src": "X",
+                "ref_summ": "There are 2 restaurant -s that serve chinese food in the expensive price range . ",
+                "sys_summ": "there are 2 expensively priced chinese restaurants .",
+                "sys_name": "BAGEL",
+                "aspect": "naturalness",
+                "polarity": "positive"
+            },
+            {
+                "src": "X",
+                "ref_summ": "The hyatt fisherman 7s wharf provides internet . ",
+                "sys_summ": "Hyatt fisherman 7s wharf has internet .",
+                "sys_name": "BAGEL",
+                "aspect": "naturalness",
+                "polarity": "positive"
+            },
+            {
+                "src": "X",
+                "ref_summ": "Would you like to know if dogs are allowed ? ",
+                "sys_summ": "would you like a hotel where dogs are allowed ?",
+                "sys_name": "BAGEL",
+                "aspect": "naturalness",
+                "polarity": "positive"
+            },
+            {
+                "src": "X",
+                "ref_summ": "X is an italian restaurant in the riverside area . ",
+                "sys_summ": "X is an italian restaurant near riverside area .",
+                "sys_name": "BAGEL",
+                "aspect": "naturalness",
+                "polarity": "positive"
+            },
+            {
+                "src": "X",
+                "ref_summ": "X is a restaurant in the moderate pricerange . ",
+                "sys_summ": "X is a restaurant in the moderate price range .",
+                "sys_name": "BAGEL",
+                "aspect": "naturalness",
+                "polarity": "positive"
+            }
+        ],
+        "quality": [
+            {
+                "src": "X",
+                "ref_summ": "Ok , you want a restaurant and you do not care whether it allows kid -s ? ",
+                "sys_summ": "let me confirm that you do not care if children are allowed at the restaurant ?",
+                "sys_name": "BAGEL",
+                "aspect": "quality",
+                "polarity": "positive"
+            },
+            {
+                "src": "X",
+                "ref_summ": "The phone number for crustacean restaurant is 4157762722 . ",
+                "sys_summ": "the phone number for crustacean restaurant is 4157762722 .",
+                "sys_name": "BAGEL",
+                "aspect": "quality",
+                "polarity": "positive"
+            },
+            {
+                "src": "X",
+                "ref_summ": "Hotel fusion accepts credit card -s . ",
+                "sys_summ": "hotel fusion accepts credit cards .",
+                "sys_name": "BAGEL",
+                "aspect": "quality",
+                "polarity": "positive"
+            },
+            {
+                "src": "X",
+                "ref_summ": "Would you like a hotel that offers internet service ? ",
+                "sys_summ": "are you looking for a hotel with internet ?",
+                "sys_name": "BAGEL",
+                "aspect": "quality",
+                "polarity": "positive"
+            },
+            {
+                "src": "X",
+                "ref_summ": "X is a restaurant in X with a moderately priced menu . ",
+                "sys_summ": "X is a restaurant in the moderate price range in the X area .",
+                "sys_name": "BAGEL",
+                "aspect": "quality",
+                "polarity": "positive"
+            },
+            {
+                "src": "X",
+                "ref_summ": "X is a restaurant that has indian food at a moderate price in X . ",
+                "sys_summ": "X is an indian restaurant in the X area .",
+                "sys_name": "BAGEL",
+                "aspect": "quality",
+                "polarity": "positive"
+            }
+        ]
+    },
+    "asp_definition": {
+        "informativeness": "Convert the following text into another expression that preserves key information:",
+        "naturalness": "Convert the following text into another expression that is as natural as a native speaker:",
+        "quality": "Convert the following text into another expression that is fluent and grammatically correct:"
+    }
+}

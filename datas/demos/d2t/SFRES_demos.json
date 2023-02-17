@@ -1,0 +1,159 @@
+{
+    "demo": {
+        "informativeness": [
+            {
+                "src": "inform(name='a la turca restaurant',price_range=cheap)",
+                "ref_summ": "A la turca restaurant is in the cheap price range .",
+                "sys_summ": "A la turca restaurant , is cheap .",
+                "sys_name": "SFRES",
+                "aspect": "informativeness",
+                "polarity": "positive"
+            },
+            {
+                "src": "inform(name='amber india',phone='4157770500',postcode='94103')",
+                "ref_summ": "Amber india 's phone number is 4157770500. their postcode is 94103 .",
+                "sys_summ": "The phone number for amber india is 4157770500 , and the postcode is 94103 .",
+                "sys_name": "SFRES",
+                "aspect": "informativeness",
+                "polarity": "positive"
+            },
+            {
+                "src": "inform(name='ananda fuara',food=vegetarian)",
+                "ref_summ": "Ananda fuara is the restaurant serves vegetarian .",
+                "sys_summ": "There is a vegetarian restaurant called ananda fuara .",
+                "sys_name": "SFRES",
+                "aspect": "informativeness",
+                "polarity": "positive"
+            },
+            {
+                "src": "inform(name='arabian nights restaurant',type=restaurant)",
+                "ref_summ": "The restaurant is called arabian nights restaurant .",
+                "sys_summ": "The name of the restaurant is arabian nights restaurant .",
+                "sys_name": "SFRES",
+                "aspect": "informativeness",
+                "polarity": "positive"
+            },
+            {
+                "src": "inform(name='arabian nights restaurant',address='2345 mission street')",
+                "ref_summ": "The address to the arabian nights restaurant is 2345 mission street .",
+                "sys_summ": "Arabian nights restaurant 's address is 2345 mission street .",
+                "sys_name": "SFRES",
+                "aspect": "informativeness",
+                "polarity": "positive"
+            },
+            {
+                "src": "inform(name='taiwan restaurant',address='445 clement street',phone='4153871789')",
+                "ref_summ": "The address for taiwan restaurant is 445 clement street . The phone number is 4153871789 .",
+                "sys_summ": "Taiwan restaurant , is a nice restaurant near the inner richmond that allows kids , and is good for lunch .",
+                "sys_name": "SFRES",
+                "aspect": "informativeness",
+                "polarity": "positive"
+            }
+        ],
+        "naturalness": [
+            {
+                "src": "request(price_range)",
+                "ref_summ": "Is there a certain price range you were looking for ?",
+                "sys_summ": "What price range are you looking for ?",
+                "sys_name": "SFRES",
+                "aspect": "naturalness",
+                "polarity": "positive"
+            },
+            {
+                "src": "inform(name='chenery park',area='glen park')",
+                "ref_summ": "Chenery park is located in the glen park .",
+                "sys_summ": "Chenery park is a nice restaurant in the area of glen park .",
+                "sys_name": "SFRES",
+                "aspect": "naturalness",
+                "polarity": "positive"
+            },
+            {
+                "src": "inform(name='amber india',food=indian)",
+                "ref_summ": "Amber india restaurant serves indian food .",
+                "sys_summ": "There is a indian restaurant called amber india .",
+                "sys_name": "SFRES",
+                "aspect": "naturalness",
+                "polarity": "positive"
+            },
+            {
+                "src": "inform(name='amber india',kids_allowed=no,food=indpak)",
+                "ref_summ": "Amber india serves indpak food and kid -s are not allowed .",
+                "sys_summ": "Amber india , is a nice restaurant that serves indpak food and does not allow children .",
+                "sys_name": "SFRES",
+                "aspect": "naturalness",
+                "polarity": "positive"
+            },
+            {
+                "src": "inform(name='alborz persian cuisine',price_range=moderate,food=persian)",
+                "ref_summ": "Alborz persian cuisine serving good persian food is a moderate priced restaurant .",
+                "sys_summ": "Alborz persian cuisine serves persian food at a moderate price range .",
+                "sys_name": "SFRES",
+                "aspect": "naturalness",
+                "polarity": "positive"
+            },
+            {
+                "src": "inform(name='alborz persian cuisine',type=restaurant)",
+                "ref_summ": "Alborz persian cuisine is good restaurant .",
+                "sys_summ": "The name of the restaurant is alborz persian cuisine .",
+                "sys_name": "SFRES",
+                "aspect": "naturalness",
+                "polarity": "positive"
+            }
+        ],
+        "quality": [
+            {
+                "src": "confirm(kids_allowed=dont_care)",
+                "ref_summ": "Ok , you want a restaurant and you do not care whether it allows kid -s ?",
+                "sys_summ": "Let me confirm that you do not care if children are allowed at the restaurant ?",
+                "sys_name": "SFRES",
+                "aspect": "quality",
+                "polarity": "positive"
+            },
+            {
+                "src": "inform(name='crustacean restaurant',phone='4157762722')",
+                "ref_summ": "So you want a expensive place to eat ?",
+                "sys_summ": "Can I confirm you would like to find an expensive restaurant ?",
+                "sys_name": "SFRES",
+                "aspect": "quality",
+                "polarity": "positive"
+            },
+            {
+                "src": "inform(name='amber india',kids_allowed=no,food=indpak)",
+                "ref_summ": "Amber india serves indpak food and kid -s are not allowed .",
+                "sys_summ": "Amber india , is a nice restaurant that serves indpak food and does not allow children .",
+                "sys_name": "SFRES",
+                "aspect": "quality",
+                "polarity": "positive"
+            },
+            {
+                "src": "inform(name='ananda fuara',food=vegetarian)",
+                "ref_summ": "Ananda fuara is the restaurant serves vegetarian .",
+                "sys_summ": "There is a vegetarian restaurant called ananda fuara .",
+                "sys_name": "SFRES",
+                "aspect": "quality",
+                "polarity": "positive"
+            },
+            {
+                "src": "inform(name='angkor borei restaurant',good_for_meal=dinner,area='bernal heights',price_range=cheap)",
+                "ref_summ": "Angkor borei restaurant is a cheap restaurant in bernal heights and is open for dinner .",
+                "sys_summ": "Angkor borei restaurant , is good dinner choice for your cheap range in bernal heights .",
+                "sys_name": "SFRES",
+                "aspect": "quality",
+                "polarity": "positive"
+            },
+            {
+                "src": "inform(name='aperto restaurant',kids_allowed=yes)",
+                "ref_summ": "Aperto restaurant does allow kid -s .",
+                "sys_summ": "Aperto restaurant allows children .",
+                "sys_name": "SFRES",
+                "aspect": "quality",
+                "polarity": "positive"
+            }
+        ]
+    },
+    "asp_definition": {
+        "informativeness": "Convert the following text into another expression that preserves key information:",
+        "naturalness": "Convert the following text into another expression that is as natural as a native speaker:",
+        "quality": "Convert the following text into another expression that is fluent and grammatically correct:"
+    }
+}
