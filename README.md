@@ -34,9 +34,9 @@ The PLMs studied in this paper are listed as follows:
 
 ## Usage
 
-Take the evaluation of GPT3-text-curie-001 model as an example.
+Take the evaluation of `GPT3-text-curie-001` model as an example.
 
-- Setting `gpt3_score_aspPrompt` to `True`: the GPTScore evaluator uses a GPT3-based PLM.
+- Setting `gpt3_score` to `True`: the GPTScore evaluator uses a GPT3-based PLM.
 - Setting `gpt3model` to `curie`: the  `text-curie-001` model is utilized.
 - `out_dir_name`: set the folder for saving scoring results.
 - `dataname`: set the dataset name for evaluation (e.g., `BAGEL`).
@@ -51,9 +51,9 @@ python score_d2t.py
 --dataname "BAGEL" 
 --use_demo True 
 --use_ist True 
---gpt3_score_aspPrompt True 
+--gpt3_score True 
 --gpt3model "ada" 
---out_dir_name "gpt3_score_aspPrompt"  
+--out_dir_name "gpt3Score_based"  
 --aspect 'quality'
 ```
 
@@ -66,9 +66,9 @@ python score_d2t.py
 --dataname "BAGEL" 
 --use_demo False 
 --use_ist True 
---gpt3_score_aspPrompt True 
+--gpt3_score True 
 --gpt3model "ada" 
---out_dir_name "gpt3_score_aspPrompt"  
+--out_dir_name "gpt3Score_based"  
 --aspect 'quality'
 ```
 
@@ -80,9 +80,9 @@ python score_d2t.py
 --dataname "BAGEL" 
 --use_demo False 
 --use_ist False 
---gpt3_score_aspPrompt True 
+--gpt3_score True 
 --gpt3model "ada" 
---out_dir_name "gpt3_score_aspPrompt"  
+--out_dir_name "gpt3Score_based"  
 --aspect 'quality'
 ```
 
