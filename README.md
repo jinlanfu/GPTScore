@@ -52,7 +52,7 @@ python score_d2t.py
 --use_demo True 
 --use_ist True 
 --gpt3_score True 
---gpt3model "ada" 
+--gpt3model "curie" 
 --out_dir_name "gpt3Score_based"  
 --aspect 'quality'
 ```
@@ -67,7 +67,7 @@ python score_d2t.py
 --use_demo False 
 --use_ist True 
 --gpt3_score True 
---gpt3model "ada" 
+--gpt3model "curie" 
 --out_dir_name "gpt3Score_based"  
 --aspect 'quality'
 ```
@@ -81,7 +81,7 @@ python score_d2t.py
 --use_demo False 
 --use_ist False 
 --gpt3_score True 
---gpt3model "ada" 
+--gpt3model "curie" 
 --out_dir_name "gpt3Score_based"  
 --aspect 'quality'
 ```
